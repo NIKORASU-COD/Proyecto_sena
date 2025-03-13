@@ -1,0 +1,53 @@
+.logo1{
+    height: 80px;
+    width: 120px;
+}
+.logo1 img{
+
+    height: 100%;
+    width: 100%;
+
+   
+
+}
+.botones
+{
+   
+   border:none;
+  
+}
+.botones button
+{
+   
+   border:none;
+   background-color: rgb(209, 206, 212);
+   
+}
+.botones button:hover
+{
+   
+    border-bottom: 1px solid purple;
+    cursor: pointer;
+   
+}
+.f1 
+{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: rgb(209, 206, 212);
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.caja1 
+{
+    background-color: rgb(244, 241, 247);
+    height: 7000px;
+    width: 7000px;
+    display: flex;
+    border-right:auto;
+    border-left:auto;
+    
+}
+ 
