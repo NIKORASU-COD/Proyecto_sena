@@ -1,53 +1,76 @@
+*{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
 .logo1{
     height: 80px;
-    width: 120px;
-}
-.logo1 img{
-
-    height: 100%;
-    width: 100%;
-
-   
-
+    width: 20%;
+    border: solid black 2px;
 }
 .botones
-{
-   
-   border:none;
-  
+{ 
+    border: solid black 2px;
+    width: 60%;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 400px;
 }
 .botones button
 {
    
    border:none;
    background-color: rgb(209, 206, 212);
-   
+  
 }
 .botones button:hover
 {
    
-    border-bottom: 1px solid rgb(160, 1, 160);
+    border-bottom: 1px solid rgba(160, 1, 160, 0.644);
     cursor: pointer;
    
 }
 .f1 
 {
     display: flex;
-    justify-content: space-between ;
     align-items: center;
     background-color: rgb(209, 206, 212);
     padding-right: 30px;
     padding-left: 30px;
+    text-align: center;
 }
 
 .caja1 
 {
-    background-color: rgb(244, 241, 247);
-    height: 7000px;
-    width: 7000px;
+    background-color: rgb(210, 164, 255);
+    height: 400px;
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+    border: solid black 2px;
+}
+.inicioSesion{
+    border: solid black 2px;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.footer{
+    background-color: rgb(187, 177, 197); 
+    border: solid black 2px;
+    padding: 5px;
+    margin-top: 1%;
+}
+.secciones{
+    flex-direction: column;
+    width: 68%;
+    border: solid black 2px;
+    height: 150px;
+}
+.footer2{
     display: flex;
-    border-right:auto;
-    border-left:auto;
-    
+    gap: 3%;
+    margin: auto;
 }
 /*hola mundito xd uwu*/
